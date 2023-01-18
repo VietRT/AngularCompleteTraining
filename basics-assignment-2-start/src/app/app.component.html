@@ -1,0 +1,17 @@
+<input type="text" class="form-control" [(ngModel)]="userName" /> <!--(input)="onUpdateUserName($event)"-->
+<br />
+<p>Welcome to the website {{userName}}</p>
+
+<!--<input type="button" [disabled]="!enableButton" (click)="resetUserName($event)" value="Reset"/>-->
+<input type="button" [disabled]="userName === ''" (click)="resetUserName($event)" value="Reset" /> <!--this works as well, using an expression to return true/false-->
+<br />
+<br />
+
+<!--<input type="button" (click)="resetUserName($event)" value="Reset" />-->
+
+<ol>
+  <li>Add a Input field which updates a property ('username') via Two-Way-Binding</li>
+  <li>Output the username property via String Interpolation (in a paragraph below the input)</li>
+  <li>Add a button which may only be clicked if the username is NOT an empty string</li>
+  <li>Upon clicking the button, the username should be reset to an empty string</li>
+</ol>
