@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\angular-training",
+    "\\angular-training\\src",
+    "\\angular-training\\src\\app",
+    "\\angular-training\\src\\app\\server",
+    "\\basics-assignment-3-start\\src\\app"
   ],
-  "SelectedNode": "\\angular-training",
+  "SelectedNode": "\\angular-training\\src\\app\\server\\server.component.ts",
   "PreviewInSolutionExplorer": false
 }
